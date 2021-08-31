@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <style type="text/css">
+            .box-circle-solid{
+                background-color:#35CBDF;
+                border-radius: 50%;
+                color: #fff;
+                font-size: 22px;
+                height: 55px;
+                line-height: 55px;
+                text-align: center;
+                width: 55px;
+            }
+
+            .nav {
+                background-color: #2B2B2B;
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-end;
+                align-items: center;
+                text-align: center;
+                padding: 0 80px 0 0;
+                position: fixed;
+                width: 100%;
+                z-index: 1;
+            }
+
+            .nav a {
+                font-size: 16px;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+
+            .contactpic {
+                background-image: url("images/fintech2.jpeg");
+                background-size: cover;
+                background-position: center;
+                height: 100%;
+                width: 100%;
+            }
+            .footer {
+                background-color: #2B2B2B;
+                padding: 80px;
+            }
+
+            /* Make the image fully responsive */
+            .carousel-inner img {
+                width: 100%;
+                height: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="nav">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#team">Team</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <!--home.html-->
+        <a name="home"></a>
+
+        <!--carousel-->
+
+        <div id="demo" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/fintech.jpg" class="img-fluid"  >
+                    <div class="carousel-caption">
+                        <h3>Financial technology </h3>
+                        <p>It would revolutionize the way we think about finance</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/fintech.jpg" class="img-fluid"  >
+                    <div class="carousel-caption">
+                        <h3>Financial technology </h3>
+                        <p>It would revolutionize the way we think about finance</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/fintech.jpg" class="img-fluid"  >
+                    <div class="carousel-caption">
+                        <h3>Financial technology </h3>
+                        <p>It would revolutionize the way we think about finance</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Left and right controls CANT WORK -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+
+        <!--about.html-->
+        <a name="about"></a>
+
+        <div class="container mt-5">
+            <div class="text-center">
+                <h2>Who We Are</h2>
+                <h6>This is information panel</h6>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-lg-4 col-sm-6 col-12 pink">
+                    <div class="text-center">
+                        <i class="fa fa-laptop box-circle-solid mt-3 mb-3"></i>
+                        <h3>Responsive Design</h3>
+                        <p>Never in all their history have men been able truly to conceive of the world as one a single sphere</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12 pink">
+                    <div class="text-center">
+                        <i class="fa fa-calendar box-circle-solid mt-3 mb-3"></i>
+                        <h3>Integrated Calendar</h3>
+                        <p>Never in all their history have men been able truly to conceive of the world as one a single sphere</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12 pink">
+                    <div class="text-center">
+                        <i class="fa fa-bug box-circle-solid mt-3 mb-3"></i>
+                        <h3>Bug Free Solution</h3>
+                        <p>Never in all their history have men been able truly to conceive of the world as one a single sphere</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12 pink">
+                    <div class="text-center">
+                        <i class="fa fa-cloud box-circle-solid mt-3 mb-3"></i>
+                        <h3>Cloud Storage</h3>
+                        <p>Never in all their history have men been able truly to conceive of the world as one a single sphere</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12 pink">
+                    <div class="text-center">
+                        <i class="fa fa-gem box-circle-solid mt-3 mb-3"></i>
+                        <h3>Premium Features</h3>
+                        <p>Never in all their history have men been able truly to conceive of the world as one a single sphere</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12 pink">
+                    <div class="text-center">
+                        <i class="fa fa-comments box-circle-solid mt-3 mb-3"></i>
+                        <h3>24/7 Support</h3>
+                        <p>Never in all their history have men been able truly to conceive of the world as one a single sphere</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--team.html-->
+        <a name="team"></a>
+
+        <div class="container mt-5">
+            <div class="text-center">
+                <h2>Meet Our Team</h2>
+                <h6>This is information panel</h6>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-md-4 col-sm-4">
+                    <img src="images/jimgordon.jpg" class="rounded img-fluid">
+                    <h3>Jim Gorden</h3>
+                    <p>Developer</p>
+                    <i class="fa fa-phone box-circle-solid mt-3 mb-3"></i>
+                    <i class="fa fa-envelope box-circle-solid mt-3 mb-3"></i>
+                    <i class="fab fa-linkedin box-circle-solid mt-3 mb-3"></i>
+                </div>
+                <div class="col-md-4 col-md-0 col-sm-4">
+                    <img src="images/peytonlist.jpg" class="rounded img-fluid">
+                    <h3>Peyton Warren</h3>
+                    <p>UI/UX</p>
+                    <i class="fa fa-phone box-circle-solid mt-3 mb-3"></i>
+                    <i class="fa fa-envelope box-circle-solid mt-3 mb-3"></i>
+                    <i class="fab fa-linkedin box-circle-solid mt-3 mb-3"></i>
+                </div>
+                <div class="col-md-4 col-md-0 col-sm-4">
+                    <img src="images/craigfromsouthpark.png" class="rounded img-fluid">
+                    <h3>Crig Thompson</h3>
+                    <p>Manager</p>
+                    <i class="fa fa-phone box-circle-solid mt-3 mb-3"></i>
+                    <i class="fa fa-envelope box-circle-solid mt-3 mb-3"></i>
+                    <i class="fab fa-linkedin box-circle-solid mt-3 mb-3"></i>
+                </div>
+
+            </div>
+        </div>
+
+        <!--testimonials.html-->
+        <a name="testimonials"></a>
+
+        <div class="container mt-5">
+            <div class="text-center">
+                <h2>Client Testimonials</h2>
+                <h6>What people says about us.</h6>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-md-4 col-sm-6 col-12">
+                    <div class="card border-primary mb-4 text-center">
+                        <div class="card-body">
+                            <div style="font-size: 100px" class="text-primary">“</div>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+
+                        <div class="card-header bg-primary text-white">
+                            <h5 class="card-title">Allison A</h5>
+                            -United States
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-12">
+                    <div class="card border-primary mb-4 text-center">
+                        <div class="card-body">
+                            <div style="font-size: 100px" class="text-primary">“</div>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+
+                        <div class="card-header bg-primary text-white">
+                            <h5 class="card-title">Julian Powell</h5>
+                            -United States
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-12">
+                    <div class="card border-primary mb-4 text-center">
+                        <div class="card-body">
+                            <div style="font-size: 100px" class="text-primary">“</div>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+
+                        <div class="card-header bg-primary text-white">
+                            <h5 class="card-title">Kylie Barnes</h5>
+                            -United States
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br/>
+
+            <div class="text-center">
+                <h2>Company Sales Figures</h2>
+                <h6>(All figures are in $ millions)</h6>
+            </div>
+            <div class="container mt-5">
+                <div class="table-bordered">
+                    <table class="table">
+                        <thead class="thead-light">
+                            <tr>
+                                <th>Item</th>
+                                <th>Jan-Sept 2017 (Actual)</th>
+                                <th>Jan-Sept 2017 (Projected)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Net Sales</td>
+                                <td>18.661</td>
+                                <td>19.221</td>
+                            </tr>
+                            <tr>
+                                <td>Coast of Goods Sold</td>
+                                <td>12.969</td>
+                                <td>13.262</td>
+                            </tr>
+                            <tr>
+                                <td>Gross Margin</td>
+                                <td>5.691</td>
+                                <td>5.843</td>
+                            </tr>
+                            <tr>
+                                <td>Net Income</td>
+                                <td>0.279</td>
+                                <td>0.461</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!--contact.html-->
+        <a name="contact"></a>
+
+        <div class="container-fluid bg-info">
+            <div class="row">
+                <div class="col-md-6 col-sm-12 p-5">
+                    <div class="px-5 text-white">
+                        <div class="mb-5">
+                            <h1>Contact Us</h1>
+                            <h6>This is information panel</h6>
+                        </div>
+                        <div>
+                            <i class="fa fa-home mr-3 mt-3 mb-3"></i>
+                            Company Location
+                        </div>
+                        <div>
+                            <i class="fa fa-envelope mr-3 mt-3 mb-3"></i>
+                            info@example.com
+                        </div>
+                        <div>
+                            <i class="fa fa-phone mr-3 mt-3 mb-3"></i>
+                            +65 12345678
+                        </div>
+                        <div>
+                            <i class="fa fa-fax mr-3 mt-3 mb-3"></i>
+                            +65 87654321
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 p-0">
+                    <div class="contactpic"></div>
+                </div>
+            </div>
+        </div>
+
+        <!--footer-->
+
+        <div class="footer text-white">
+            <div class="row">
+                <div class="col-md-3">
+                    <h4>Quick Links</h4>
+                    <a href="#home" class="text-white">Home</a><br/>
+                    <a href="#about" class="text-white">About</a><br/>
+                    <a href="#team" class="text-white">Team</a><br/>
+                    <a href="#testimonials" class="text-white">Testimonials</a><br/>
+                    <a href="#contact" class="text-white">Contact</a>
+                </div>
+                <div class="col-md-3">
+                    <h4>Legal Links</h4>
+                    <a href="#" class="text-white">Privacy Policy</a><br/>
+                    <a href="#" class="text-white">Terms and Conditions</a><br/>
+                    <a href="#" class="text-white">Custom Link 1</a><br/>
+                    <a href="#" class="text-white">Custom Link 2</a><br/>
+
+                </div>
+                <div class="col-md-6">
+                    <h4>About Company</h4>
+                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h4>Subscribe Now</h4>
+                            <input type="text" name="search">
+                            <button type="submit">Subscribe</button>
+                        </div>
+                        <div class="col-md-6">
+                            <h4>Share the Love</h4>
+                            <i class="fab fa-facebook-square"></i>
+                            <i class="fab fa-twitter-square"></i>
+                            <i class="fab fa-google-plus-square"></i>
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/all.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $(".back").css("text-transform", "uppercase");
+                $("ul").addClass("top");
+                $("ul li").css("display", "inline");
+                $("#friends a[href$='.com/']").css("color", "#0087cc");
+                $("#friends a").addClass("nav");
+                $("#social a:even").css("background-color", "lightblue");
+                $("#social a:odd").css("background-color", "lightpink");
+                $("p:last").css("font-size", "8px");
+
+            });
+
+        </script>
+        <style>
+            .top {
+                border: 1px solid #cecfd5;
+                border-radius: 6px;
+                list-style: none;
+                padding: 8px 0 8px 0;
+                text-align: center
+            }
+
+            .nav {
+                display:block;
+                text-decoration: none;
+                padding: 6px 12px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+
+                <h1 id="title">
+                    <span class="front">the works of </span>
+                    <span class="back">justin edmund</span>
+                </h1>
+                <ul>
+                    <li>
+                        <a href="http://jedmund.com/about">about</a>
+                    </li>
+                    <li>
+                        <a href="http://blog.jedmund.com/">blog</a>
+                    </li>
+                    <li>
+                        <a href="http://jedmund.com/projects">works</a>
+                    </li>
+                </ul>
+            </header>
+            <p>Justin Edmund is a maker focusing on product design and software development. He primarily builds tools that help people be more creative and inspired. He also enjoys bookbinding and other physical forms of design.</p>
+            <p>He currently works at <a href="http://pinterest.com/" title="Pinterest" target="_new">Pinterest</a> in San Francisco, California as a product designer. He worked at <a href="http://facebook.com/" title="Facebook" target="_new">Facebook</a> briefly as an intern in 2010. He graduated from the <a href="http://design.cmu.edu/" title="School of Design" target="_new">Carnegie Mellon University School of Design's</a> Communication Design program in May 2011.</p>
+
+            <div id="friends">
+                <h3>I like these people</h3>
+                <a href="http://ashsmash.com/" target="_new">Ash Huang</a>
+                <a href="http://victorng.net/" target="_new">Victor Ng</a>
+                <a href="http://leebyron.com/" target="_new">Lee Byron</a>
+                <a href="http://dianewuart.blogspot.com/" target="_new">Diane Wu</a>
+                <a href="http://helloauan.com/" target="_new">Jonathon Toon</a>
+                <a href="http://rsms.me/" target="_new">Rasmus Andersson</a>
+                <a href="http://hiytrebla.com/" target="_new">Albert Yih</a>
+            </div>
+        </div>
+        <footer>
+            <p>Justin Edmund is a maker focusing on product design and software development.
+            </p>
+            <p>He is happily working as a Product Designer at <a href="http://pinterest.com/" title="Pinterest" target="_new">Pinterest</a> in San Francisco. Want to get in touch? <a href="mailto:hello@jedmund.com" title="" target="_new">Send an email!</a></p>
+
+            <div id="social">
+                <a href="http://www.facebook.com/jedmund" target="_new">facebook</a>
+                <a href="http://www.twitter.com/jedmund" target="_new">twitter</a>
+                <a href="http://pinterest.com/jedmund" target="_new">pinterest</a>
+                <a href="http://www.dribbble.com/jedmund" target="_new">dribble</a>
+                <a href="http://quora.com/Justin-Edmund-1" target="_new">quora</a>
+                <a href="http://github.com/jedmund" target="_new">github</a>
+                <a href="http://vimeo.com/jedmund" target="_new">vimeo</a>
+                <a href="http://linkedin.com/in/jedmund" target="_new">linkedin</a>
+            </div>
+            <p>all works ©2007-2012 Justin Edmund, all rights reserved • Built on <a href="http://getfoundation.com/">Foundation</a> • <a href="http://jedmund.com/admin">admin</a></p>
+        </footer>
+
+    </body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/all.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $("button").click(function () {
+                    // Customer Name and Phone
+                    $(":text").css('background-color', 'yellow');
+
+//                    // Customer Name
+//                    $("[name=custName]").css('background-color', 'yellow');
+//
+//                    // Male and Female
+//                    $(":radio").css('background-color', 'yellow');
+//
+//                    // Badminton and Swimming
+//                    $(".checkbox:checked").css('background-color', 'yellow');
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <p>Customer Name:<input type="text" name="custName" value="John Smith"/>
+        <p>Phone:<input type="text" name="phone" value="12345678"/>
+        </p>
+        <p>Gender
+            <input type="radio" name="gender" value="M" checked/> Male
+            <input type="radio" name="gender" value="F" /> Female
+        </p>
+        <p>Hobbies
+            <input type="checkbox" name="hobbies" value="badminton" checked/> Badminton
+            <input type="checkbox" name="hobbies" value="swimming" checked/> Swimming
+            <input type="checkbox" name="hobbies" value="basketball" /> Basketball
+        </p>
+        <p><input type="submit"/>
+
+            <br></br>
+            
+            <button>Click me to show selected element</button>
+    </body>
+</html>

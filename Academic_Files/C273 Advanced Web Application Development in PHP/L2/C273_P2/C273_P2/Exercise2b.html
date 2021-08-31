@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/all.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $(".title").css("font-weight", "bold");
+                $(".title").css("border", "3px solid");
+                $("p").prepend("<i>free</i> ");
+                $("#sub").html("For guests, <br/>we  provide:");
+            })
+        </script>
+        <style>
+            .red   { color: #FF0000; }
+            .green { color: #00FF00; }
+            .blue  { color: #0000FF; }
+        </style>
+    </head>
+    <body>
+        <br></br>
+        <div class="title">This event is to introduce my new book.</div>
+        <div id="sub">sub title</div>
+        <p>key chain</p>                    
+        <div>Do attend this event.</div>  
+    </body>
+</html>

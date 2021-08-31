@@ -1,0 +1,60 @@
+<html>
+
+<head>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            localStorage.setItem(count, 0);
+            $.get("getTasks.php", {},
+                function (data) {
+                    var msg = "";
+                    var select =
+                        "<option value='Not done'>Not Done</option><option value='Ongoing'>OnGoing</option><option value='Done'>Done</option></select>";
+                    data.forEach(i => {
+                        msg += "<tr><td>" + i.task_id;
+                        msg += "</td><td>" + i.task;
+                        msg += "</td><td value='" + i.task_id + "'><select id='" + i.task_id +
+                            "'>" + select + "<td></tr>";
+                        $("#" + i.task_id).val(i.status);
+                    });
+                },
+                "json");
+            $("select").change(function () {
+                localStorage.setItem(count, (Number(localStorage.getItem(count)) + 1));
+                update($(this).parent, $(this).val())
+                $("#display").text(localStorage.getItem(count))
+            });
+        });
+
+        function update(id, status) {
+            $.post("updateStatus", {
+                    taskid: id,
+                    status: status
+                },
+                function (data) {
+                    console.log(data);
+                },
+                "json"
+            );
+        }
+    </script>
+</head>
+
+<body>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Task ID</th>
+                <th>Task</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody id="body">
+
+        </tbody>
+    </table>
+    <label>Updated <p id="display"></p> times</label>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bootstrap 4 Example</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/all.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $("button").click(function () {
+
+//                    // <h1 id="myHeader">What element I am!</h1>                      
+//                    $("h1#myHeader").css('background-color', 'yellow');
+//
+//                    // <div class="abc">this is the div tag with the class abc</div>
+//                    $("div.abc").css('background-color', 'yellow');
+//
+//                    // <div><span class="abc">this is sub one</span></div>
+//                    $("span.abc").css('background-color', 'yellow');
+
+                    // <h1 id="myHeader">What element I am!</h1>
+                    // <div class="abc">this is the div tag with the class abc</div>
+                    $("h1#myHeader,  div.abc").css('background-color', 'yellow');
+
+                });
+            });
+        </script>
+    </head>
+    <body>
+
+        <h1 id="myHeader">What element I am!</h1>
+        <div class="abc">this is the div tag with the class abc</div>
+        <div>
+            <div class="abc">this is sub one</div>
+            <div>this is another text</div>
+        </div>
+
+
+        <button>Click me to show selected element</button>
+
+    </body>
+</html>

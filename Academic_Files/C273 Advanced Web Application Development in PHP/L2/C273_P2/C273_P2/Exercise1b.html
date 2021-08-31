@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/all.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $("button").click(function () {
+
+                    //  <div class="green">Green Triangle</div>
+                    $(".green:first").css('background-color', 'yellow');
+
+//                    // <li>Fourth Item</li>
+//                    $("#list :last").css('background-color', 'yellow');
+//
+//                    // <li>Second Item</li>
+//                    //  <li>Fourth Item</li>
+//                    $("#list li:odd").css('background-color', 'yellow');
+//
+//                    // <div class="red">Red Triangle</div>
+//                    // <div class="green">Green Triangle</div>
+//                    // <div class="purple">Purple Square</div>
+//                    $("div:even").css('background-color', 'yellow');
+//
+//
+//                    // <li>Second Item</li>
+//                    $("ul li:eq(1)").css('background-color', 'yellow');
+//
+//                    // <div class="green">Green Square</div>
+//                    // <div class="purple">Purple Square</div>
+//                    $("ul li:gt(2)").css('background-color', 'yellow');
+//
+//
+//                    // <div class="red">Red Triangle</div>
+//                    // <div class="blue">Blue Triangle</div>
+//                    $("ul li:lt(2)")css('background-color', 'yellow');
+                });
+            });
+        </script>
+
+    </head>
+    <body>
+        <ul id="list"> 
+            <li>First Item</li> 
+            <li>Second Item</li> 
+            <li>Third Item</li> 
+            <li>Fourth Item</li>
+        </ul>
+        <div class="red">Red Triangle</div>
+        <div class="blue">Blue Triangle</div>
+        <div class="green">Green Triangle</div>
+        <div class="green">Green Square</div>
+        <div class="purple">Purple Square</div>
+
+
+        <button>Click me to show selected element</button>
+    </body>
+</html>

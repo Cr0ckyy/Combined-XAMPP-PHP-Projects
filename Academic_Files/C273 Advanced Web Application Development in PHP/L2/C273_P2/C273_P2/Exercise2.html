@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/all.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $(".abc").css("border", "3px solid red");
+                $("p").css("background-color", "cyan");
+                $("#one .sub-one").addClass("myclass");
+            });
+
+        </script>
+        <style>
+            .myclass {
+                font-weight: bold;
+                color: blue;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="abc">this is the div tag with the class abc</div>
+        <p>Good morning</p>
+        <p>a good day!</p>
+        <div id="one">
+            a text
+            <div class="sub-one">this is sub one</div>
+            <div>this is another text</div>
+        </div> 
+    </body>
+</html>

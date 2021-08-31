@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/all.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $("#hello").css("color", "#39ff14");
+                $("p").css("font-style", "italic");
+                $("p.red").css("border", "2px solid green");
+                $("p#message").removeClass("red");
+                $('p#message').append(" John Smith");
+                $('p').prepend("Hello World ");
+            });
+
+        </script>
+        <style>
+            .red   { color: #FF0000; }
+            .green { color: #00FF00; }
+            .blue  { color: #0000FF; }
+        </style>
+    </head>
+    <body>
+        <h1 id="hello">Hi!</h1>
+        <p id="message" class="red">First Line </p>
+        <p class="red">Second Line </p>
+        <p>Third Line </p>
+    </body>
+</html>

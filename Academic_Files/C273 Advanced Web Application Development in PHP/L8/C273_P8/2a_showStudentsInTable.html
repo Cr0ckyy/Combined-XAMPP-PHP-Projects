@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Exercise 2a</title>
+        <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>   
+        <script>
+            $(document).ready(function () {
+                $("button").click(function () {
+                    var moduleCode = $("#idModuleCode").val();
+
+                    $.ajax({
+                        type: "GET",
+
+                        // Step 1: AJAX initiates Http  GET request and retrieves  response as JSON message
+                        url: "getStudentsByModule.php",
+                        data: "module_code=" + moduleCode,
+                        cache: false,
+                        dataType: "JSON",
+
+                        // Step 2: Retrieve data from object  and display using jQuery selector
+                        success: function (response) {
+                            var message = "";
+                            for (i = 0; i < response.length; i++) {
+                                message += "<tr><td>" + response[i].student_id + "</td>"
+                                        + "<td>" + response[i].class + "</td>"
+                                        + "<td>" + response[i].first_name + "</td>"
+                                        + "<td>" + response[i].last_name + "</td></tr>";
+                            }
+                            $("#studentTable").html(message);
+                        },
+                        
+                        error: function (obj, textStatus, errorThrown) {
+                            console.log("Error " + textStatus + ": " + errorThrown);
+                        }
+                    });
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <input type="text" id="idModuleCode"/><button>Search</button>
+        <br/><br/>
+        <table border="1" id="studentTable"></table>
+    </body>
+</html>

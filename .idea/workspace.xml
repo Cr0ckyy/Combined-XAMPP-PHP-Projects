@@ -4,13 +4,821 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b685cc20-bda1-453b-9417-e19f404c8e29" name="Changes" comment="Initial Commit ddd">
-      <change afterPath="$PROJECT_DIR$/C302_P08_SecuredCloudAddressBook/createContact.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C302_P08_SecuredCloudAddressBook/dbFunctions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C302_P08_SecuredCloudAddressBook/deleteContact.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C302_P08_SecuredCloudAddressBook/getContactDetails.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C302_P08_SecuredCloudAddressBook/getListOfContacts.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C302_P08_SecuredCloudAddressBook/updateContact.php" afterDir="false" />
+    <list default="true" id="b685cc20-bda1-453b-9417-e19f404c8e29" name="Changes" comment="Updated">
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/Academic Materials/C203_Web_Appln_Development_in_php_Revision_Notes_Modified.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/Academic Materials/C273-L01-6P (Bootstrap Introduction) .pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/Academic Materials/C273-L02-6P (jQuery Introduction).pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/Academic Materials/C273-L03-6P (Jquery methods).pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/Academic Materials/C273-L04-6P (jQuery Event handling).pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/Academic Materials/C273-L05-6P (Bootstrap Components &amp; UI Kits).pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/Academic Materials/C273-L06-6P (jQuery Widgets and  Plugins).pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/Academic Materials/C273-L07-6P (AJAX Introduction with jQuery).pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/Academic Materials/C273-L08-6P (AJAX, PHP &amp; MySQL).pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/Academic Materials/C273-L09-6P (Cloud Computing Introduction).pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/Academic Materials/C273-L10-6P (CRUD with jQuery and AJAX).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/Academic Materials/C273-L10-6P (CRUD with jQuery and AJAX).pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/Academic Materials/C273-L11-6P (HTML5 Local Storage).pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/Academic Materials/C273-L12-6P (Payment Gateway).pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/Academic Materials/C273-L13-6P (HTML5 Geolocation API &amp; Google Maps).pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/Academic Materials/C273_Revision_Note 2.1.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/Academic Materials/JavaScript resource.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/Academic Materials/Reference - JQueryCheatSheet-1.3.2.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/Academic Materials/Reference - JavaScript resource.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/Academic Materials/Reference - jQuery Selectors.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/Academic Materials/Reference - jQuery-1.5-Visual-Cheat-Sheet.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/Academic Materials/Reference - jqueryui_tutorial.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/Academic Materials/petCostCalcApp.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/Academic Materials/wsu-jquery-cheat-sheet.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/Academic Materials/~$03_Web_Appln_Development_in_php_Revision_Notes_Modified.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/Academic Materials/~$73 Quiz CA2.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/Academic Materials/~$73_Revision_Note 2.0.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/Academic Materials/~$73_Revision_Note 2.1.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/C273_Assignment_1B_Yishun_Community_Hospital/C273_Assignment_A1/css/all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/C273_Assignment_1B_Yishun_Community_Hospital/C273_Assignment_A1/css/bootstrap-datetimepicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/C273_Assignment_1B_Yishun_Community_Hospital/C273_Assignment_A1/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/C273_Assignment_1B_Yishun_Community_Hospital/C273_Assignment_A1/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/C273_Assignment_1B_Yishun_Community_Hospital/C273_Assignment_A1/css/images/ui-icons_444444_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/C273_Assignment_1B_Yishun_Community_Hospital/C273_Assignment_A1/css/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/C273_Assignment_1B_Yishun_Community_Hospital/C273_Assignment_A1/css/jquery.rating.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/C273_Assignment_1B_Yishun_Community_Hospital/C273_Assignment_A1/css/segmentAnimation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/C273_Assignment_1B_Yishun_Community_Hospital/C273_Assignment_A1/dataDisplay.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/C273_Assignment_1B_Yishun_Community_Hospital/C273_Assignment_A1/dbFunctions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/C273_Assignment_1B_Yishun_Community_Hospital/C273_Assignment_A1/doLogin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/C273_Assignment_1B_Yishun_Community_Hospital/C273_Assignment_A1/doMealEntry.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/C273_Assignment_1B_Yishun_Community_Hospital/C273_Assignment_A1/doSignout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/C273_Assignment_1B_Yishun_Community_Hospital/C273_Assignment_A1/doSignup.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/C273_Assignment_1B_Yishun_Community_Hospital/C273_Assignment_A1/docx/C273 Assignment 1A.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/C273_Assignment_1B_Yishun_Community_Hospital/C273_Assignment_A1/img/icons/about.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/C273_Assignment_1B_Yishun_Community_Hospital/C273_Assignment_A1/img/icons/appstore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/C273_Assignment_1B_Yishun_Community_Hospital/C273_Assignment_A1/img/icons/booking.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/C273_Assignment_1B_Yishun_Community_Hospital/C273_Assignment_A1/img/icons/career.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/C273_Assignment_1B_Yishun_Community_Hospital/C273_Assignment_A1/img/icons/charity.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/C273_Assignment_1B_Yishun_Community_Hospital/C273_Assignment_A1/img/icons/microscope.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/C273_Assignment_1B_Yishun_Community_Hospital/C273_Assignment_A1/img/icons/patient.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/C273_Assignment_1B_Yishun_Community_Hospital/C273_Assignment_A1/img/icons/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/C273_Assignment_1B_Yishun_Community_Hospital/C273_Assignment_A1/img/icons/site.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/C273_Assignment_1B_Yishun_Community_Hospital/C273_Assignment_A1/img/icons/training.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/C273_Assignment_1B_Yishun_Community_Hospital/C273_Assignment_A1/img/skgh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/C273_Assignment_1B_Yishun_Community_Hospital/C273_Assignment_A1/img/skh 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/C273_Assignment_1B_Yishun_Community_Hospital/C273_Assignment_A1/img/skh 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/C273_Assignment_1B_Yishun_Community_Hospital/C273_Assignment_A1/img/skh_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/C273_Assignment_1B_Yishun_Community_Hospital/C273_Assignment_A1/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/C273_Assignment_1B_Yishun_Community_Hospital/C273_Assignment_A1/insertingData.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/C273_Assignment_1B_Yishun_Community_Hospital/C273_Assignment_A1/js/Chart.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/C273_Assignment_1B_Yishun_Community_Hospital/C273_Assignment_A1/js/additional-methods.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/C273_Assignment_1B_Yishun_Community_Hospital/C273_Assignment_A1/js/areas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/C273_Assignment_1B_Yishun_Community_Hospital/C273_Assignment_A1/js/bootstrap-datetimepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/C273_Assignment_1B_Yishun_Community_Hospital/C273_Assignment_A1/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/C273_Assignment_1B_Yishun_Community_Hospital/C273_Assignment_A1/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/C273_Assignment_1B_Yishun_Community_Hospital/C273_Assignment_A1/js/img/star-half.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/C273_Assignment_1B_Yishun_Community_Hospital/C273_Assignment_A1/js/img/star-off.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/C273_Assignment_1B_Yishun_Community_Hospital/C273_Assignment_A1/js/img/star-on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/C273_Assignment_1B_Yishun_Community_Hospital/C273_Assignment_A1/js/jquery-3.5.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/C273_Assignment_1B_Yishun_Community_Hospital/C273_Assignment_A1/js/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/C273_Assignment_1B_Yishun_Community_Hospital/C273_Assignment_A1/js/jquery.raty.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/C273_Assignment_1B_Yishun_Community_Hospital/C273_Assignment_A1/js/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/C273_Assignment_1B_Yishun_Community_Hospital/C273_Assignment_A1/js/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/C273_Assignment_1B_Yishun_Community_Hospital/C273_Assignment_A1/login+signup.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/C273_Assignment_1B_Yishun_Community_Hospital/C273_Assignment_A1/mealEntry.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/C273_Assignment_1B_Yishun_Community_Hospital/C273_Assignment_A1/nav.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/C273_Assignment_1B_Yishun_Community_Hospital/C273_Assignment_A1/plans/index.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/C273_Assignment_1B_Yishun_Community_Hospital/C273_Assignment_A1/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/C273_Assignment_1B_Yishun_Community_Hospital/C273_Assignment_A1/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/C273_Assignment_1B_Yishun_Community_Hospital/C273_Assignment_A1/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/C273_Assignment_1B_Yishun_Community_Hospital/C273_Assignment_A1/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/C273_Assignment_1B_Yishun_Community_Hospital/C273_Assignment_A1/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/C273_Assignment_1B_Yishun_Community_Hospital/C273_Assignment_A1/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/C273_Assignment_1B_Yishun_Community_Hospital/C273_Assignment_A1/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/C273_Assignment_1B_Yishun_Community_Hospital/C273_Assignment_A1/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/C273_Assignment_1B_Yishun_Community_Hospital/C273_Assignment_A1/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/C273_Assignment_1B_Yishun_Community_Hospital/C273_Assignment_A1/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/C273_Assignment_1B_Yishun_Community_Hospital/C273_Assignment_A1/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/C273_Assignment_1B_Yishun_Community_Hospital/C273_Assignment_A1/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/C273_Assignment_1B_Yishun_Community_Hospital/C273_Assignment_A1/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/C273_Assignment_1B_Yishun_Community_Hospital/C273_Assignment_A1/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/C273_Assignment_1B_Yishun_Community_Hospital/C273_Assignment_A1/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/C273_Assignment_1B_Yishun_Community_Hospital/C273_Assignment_A1/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L1/C273 L1/1_grid.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L1/C273 L1/2_text_spacing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L1/C273 L1/3_tables.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L1/C273 L1/4_cards_images.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L1/C273 L1/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L1/C273 L1/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L1/C273 L1/css/all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L1/C273 L1/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L1/C273 L1/images/applecompany.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L1/C273 L1/images/applelogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L1/C273 L1/images/books.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L1/C273 L1/images/craigfromsouthpark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L1/C273 L1/images/fintech.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L1/C273 L1/images/fintech2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L1/C273 L1/images/jimgordon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L1/C273 L1/images/peytonlist.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L1/C273 L1/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L1/C273 L1/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L1/C273 L1/nbproject/project.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L1/C273 L1/nbproject/project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L1/C273 L1/nbproject/project_1.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L1/C273 L1/nbproject/project_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L1/C273 L1/solution.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L1/C273 L1/team.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L1/C273 L1/template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L1/C273 L1/testimonials.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L1/C273 L1/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L1/C273 L1/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L1/C273 L1/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L1/C273 L1/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L1/C273 L1/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L1/C273 L1/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L1/C273 L1/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L1/C273 L1/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L1/C273 L1/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L1/C273 L1/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L1/C273 L1/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L1/C273 L1/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L1/C273 L1/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L1/C273 L1/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L1/C273 L1/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L1/C273-L01-WS.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L10/C273-L10-PS.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L10/C273-L10-WS.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L10/C273_L10CRUD/addAllocation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L10/C273_L10CRUD/addModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L10/C273_L10CRUD/addStudent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L10/C273_L10CRUD/css/all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L10/C273_L10CRUD/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L10/C273_L10CRUD/dbFunctions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L10/C273_L10CRUD/deleteAllocation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L10/C273_L10CRUD/deleteModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L10/C273_L10CRUD/deleteStudent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L10/C273_L10CRUD/editAllocation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L10/C273_L10CRUD/editModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L10/C273_L10CRUD/editStudent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L10/C273_L10CRUD/getAllocationDetails.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L10/C273_L10CRUD/getModuleDetails.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L10/C273_L10CRUD/getModules.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L10/C273_L10CRUD/getStudentDetails.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L10/C273_L10CRUD/getStudents.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L10/C273_L10CRUD/getStudentsByModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L10/C273_L10CRUD/js/additional-methods.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L10/C273_L10CRUD/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L10/C273_L10CRUD/js/jquery-3.5.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L10/C273_L10CRUD/js/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L10/C273_L10CRUD/js/validator.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L10/C273_L10CRUD/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L10/C273_L10CRUD/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L10/C273_L10CRUD/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L10/C273_L10CRUD/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L10/C273_L10CRUD/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L10/C273_L10CRUD/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L10/C273_L10CRUD/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L10/C273_L10CRUD/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L10/C273_L10CRUD/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L10/C273_L10CRUD/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L10/C273_L10CRUD/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L10/C273_L10CRUD/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L10/C273_L10CRUD/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L10/C273_L10CRUD/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L10/C273_L10CRUD/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L10/c273_p10.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L11/C273-L11-PS.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L11/C273-L11-WS.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L11/C273_L11MovieReviewStorage/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L11/C273_L11MovieReviewStorage/exercise2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L11/C273_L11MovieReviewStorage/exercise3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L11/C273_L11MovieReviewStorage/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L11/C273_L11MovieReviewStorage/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L11/C273_L11MovieReviewStorage/js/jquery-3.5.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L11/C273_L11MovieReviewStorage/navbar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L11/C273_L11MovieReviewStorage/searchMovie.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L13/c273_sapractical/c273_sapractical/css/all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L13/c273_sapractical/c273_sapractical/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L13/c273_sapractical/c273_sapractical/dbFunctions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L13/c273_sapractical/c273_sapractical/getTask.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L13/c273_sapractical/c273_sapractical/js/additional-methods.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L13/c273_sapractical/c273_sapractical/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L13/c273_sapractical/c273_sapractical/js/jquery-3.5.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L13/c273_sapractical/c273_sapractical/js/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L13/c273_sapractical/c273_sapractical/js/validator.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L13/c273_sapractical/c273_sapractical/todolist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L13/c273_sapractical/c273_sapractical/updateStatus.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L13/c273_sapractical/c273_sapractical/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L13/c273_sapractical/c273_sapractical/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L13/c273_sapractical/c273_sapractical/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L13/c273_sapractical/c273_sapractical/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L13/c273_sapractical/c273_sapractical/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L13/c273_sapractical/c273_sapractical/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L13/c273_sapractical/c273_sapractical/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L13/c273_sapractical/c273_sapractical/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L13/c273_sapractical/c273_sapractical/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L13/c273_sapractical/c273_sapractical/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L13/c273_sapractical/c273_sapractical/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L13/c273_sapractical/c273_sapractical/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L13/c273_sapractical/c273_sapractical/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L13/c273_sapractical/c273_sapractical/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L13/c273_sapractical/c273_sapractical/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L2/C273-L02-WS-Session1.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L2/C273-L02-WS-Session2.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L2/C273_P2.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L2/C273_P2/C273-L02-WS-Session1.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L2/C273_P2/C273-L02-WS-Session2.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L2/C273_P2/C273_P2/ChallangeExercise.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L2/C273_P2/C273_P2/Exercise1a.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L2/C273_P2/C273_P2/Exercise1b.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L2/C273_P2/C273_P2/Exercise1c.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L2/C273_P2/C273_P2/Exercise1d.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L2/C273_P2/C273_P2/Exercise2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L2/C273_P2/C273_P2/Exercise2a.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L2/C273_P2/C273_P2/Exercise2b.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L2/C273_P2/C273_P2/Exercise2c.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L2/C273_P2/C273_P2/css/all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L2/C273_P2/C273_P2/css/all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L2/C273_P2/C273_P2/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L2/C273_P2/C273_P2/jquery-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L2/C273_P2/C273_P2/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L2/C273_P2/C273_P2/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L2/C273_P2/C273_P2/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L2/C273_P2/C273_P2/nbproject/project.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L2/C273_P2/C273_P2/nbproject/project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L2/C273_P2/C273_P2/nbproject/project_1.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L2/C273_P2/C273_P2/nbproject/project_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L2/C273_P2/C273_P2/template2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L2/C273_P2/C273_P2/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L2/C273_P2/C273_P2/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L2/C273_P2/C273_P2/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L2/C273_P2/C273_P2/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L2/C273_P2/C273_P2/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L2/C273_P2/C273_P2/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L2/C273_P2/C273_P2/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L2/C273_P2/C273_P2/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L2/C273_P2/C273_P2/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L2/C273_P2/C273_P2/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L2/C273_P2/C273_P2/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L2/C273_P2/C273_P2/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L2/C273_P2/C273_P2/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L2/C273_P2/C273_P2/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L2/C273_P2/C273_P2/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/C273-L03-WS-Session1.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/C273-L03-WS-Session2.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/C273_L3/Exercise1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/C273_L3/Exercise2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/C273_L3/Exercise3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/C273_L3/c273_p03.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/C273_L3/doShipCostCalculator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/C273_L3/jquery-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/C273_L3/js/Exercise3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/C273_L3/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/C273_L3/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/C273_L3/js/jquery-3.5.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/C273_L3/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/C273_L3/js/moodyWedderBlog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/C273_L3/js/shipCostCalculator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/C273_L3/moodyWedderBlog.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/C273_L3/nbproject/private/private.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/C273_L3/nbproject/private/private.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/C273_L3/nbproject/project.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/C273_L3/nbproject/project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/C273_L3/nbproject/project_1.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/C273_L3/nbproject/project_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/C273_L3/nbproject/project_2.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/C273_L3/nbproject/project_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/C273_L3/shipCostCalculator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/C273_L3/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/C273_L3/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/C273_L3/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/C273_L3/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/C273_L3/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/C273_L3/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/C273_L3/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/C273_L3/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/C273_L3/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/C273_L3/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/C273_L3/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/C273_L3/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/C273_L3/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/C273_L3/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/C273_L3/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/P03/audio/bgm_2.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/P03/audio/cir.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/P03/audio/shionLaugh_trimmed_2.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/P03/css/all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/P03/css/all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/P03/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/P03/doShipCostCalculator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/P03/exercise-1a.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/P03/exercise2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/P03/exercise3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/P03/images/0ae09b-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/P03/images/5-shipping-cost300.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/P03/images/Platypus-GTAIV-Fore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/P03/images/SSBulker-GTAV-Fore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/P03/images/maxresdefault.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/P03/images/shipping-cost-featured-image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/P03/images/shipping-cost.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/P03/images/wave.ngsversion.1500050062134.adapt.710.1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/P03/jquery-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/P03/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/P03/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/P03/js/exercise3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/P03/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/P03/moodyWedderBlog.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/P03/nbproject/project.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/P03/nbproject/project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/P03/shipCostCalculator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/P03/template2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/P03/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/P03/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/P03/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/P03/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/P03/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/P03/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/P03/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/P03/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/P03/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/P03/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/P03/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/P03/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/P03/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/P03/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/P03/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L3/c273_p03.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L4/C273-L04-WS-Session1.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L4/C273-L04-WS-Session2.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L4/C273_P4/C273_P4/css/all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L4/C273_P4/C273_P4/css/all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L4/C273_P4/C273_P4/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L4/C273_P4/C273_P4/exercise1a.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L4/C273_P4/C273_P4/exercise1b.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L4/C273_P4/C273_P4/exercise2a.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L4/C273_P4/C273_P4/exercise2b.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L4/C273_P4/C273_P4/exercise2c.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L4/C273_P4/C273_P4/exercise2d.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L4/C273_P4/C273_P4/exercise3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L4/C273_P4/C273_P4/jquery-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L4/C273_P4/C273_P4/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L4/C273_P4/C273_P4/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L4/C273_P4/C273_P4/js/exercise3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L4/C273_P4/C273_P4/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L4/C273_P4/C273_P4/nbproject/private/private.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L4/C273_P4/C273_P4/nbproject/private/private.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L4/C273_P4/C273_P4/nbproject/private/private_1.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L4/C273_P4/C273_P4/nbproject/private/private_1_1.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L4/C273_P4/C273_P4/nbproject/private/private_1_1_1.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L4/C273_P4/C273_P4/nbproject/project.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L4/C273_P4/C273_P4/nbproject/project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L4/C273_P4/C273_P4/nbproject/project_1.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L4/C273_P4/C273_P4/nbproject/project_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L4/C273_P4/C273_P4/nbproject/project_1_1.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L4/C273_P4/C273_P4/nbproject/project_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L4/C273_P4/C273_P4/nbproject/project_1_1_1.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L4/C273_P4/C273_P4/nbproject/project_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L4/C273_P4/C273_P4/nbproject/project_1_1_1_1.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L4/C273_P4/C273_P4/nbproject/project_1_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L4/C273_P4/C273_P4/nbproject/project_2.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L4/C273_P4/C273_P4/nbproject/project_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L4/C273_P4/C273_P4/nbproject/project_3.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L4/C273_P4/C273_P4/nbproject/project_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L4/C273_P4/C273_P4/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L4/C273_P4/C273_P4/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L4/C273_P4/C273_P4/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L4/C273_P4/C273_P4/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L4/C273_P4/C273_P4/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L4/C273_P4/C273_P4/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L4/C273_P4/C273_P4/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L4/C273_P4/C273_P4/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L4/C273_P4/C273_P4/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L4/C273_P4/C273_P4/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L4/C273_P4/C273_P4/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L4/C273_P4/C273_P4/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L4/C273_P4/C273_P4/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L4/C273_P4/C273_P4/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L4/C273_P4/C273_P4/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273-L05-WS.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273-L05-WS.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/1_navs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/2_navbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/3_carousels.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/PS_about.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/PS_contact.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/PS_home.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/PS_index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/PS_login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/PS_services.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/PS_why.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/addStory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/css/all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/css/all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/css/framework.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/css/framework.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/css/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/css/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/js/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/js/jquery.maskedinput.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/vendor/animate.css/animate.compat.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/vendor/animate.css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/vendor/animate.css/animate.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/vendor/bootstrap/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/vendor/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/vendor/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/vendor/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/vendor/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/vendor/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/vendor/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/vendor/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/vendor/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/vendor/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/vendor/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/vendor/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/vendor/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/vendor/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/vendor/bootstrap/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/vendor/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/vendor/boxicons/css/animations.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/vendor/boxicons/css/boxicons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/vendor/boxicons/css/boxicons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/vendor/boxicons/css/transformations.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/vendor/boxicons/fonts/boxicons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/vendor/boxicons/fonts/boxicons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/vendor/boxicons/fonts/boxicons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/vendor/boxicons/fonts/boxicons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/vendor/boxicons/fonts/boxicons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/vendor/icofont/fonts/icofont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/vendor/icofont/fonts/icofont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/vendor/icofont/icofont.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/vendor/isotope-layout/isotope.pkgd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/vendor/isotope-layout/isotope.pkgd.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/vendor/jquery.easing/jquery.easing.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/vendor/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/vendor/jquery/jquery.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/vendor/owl.carousel/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/vendor/owl.carousel/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/vendor/owl.carousel/assets/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/vendor/owl.carousel/assets/owl.carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/vendor/owl.carousel/assets/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/vendor/owl.carousel/assets/owl.theme.default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/vendor/owl.carousel/assets/owl.theme.default.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/vendor/owl.carousel/assets/owl.theme.green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/vendor/owl.carousel/assets/owl.theme.green.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/vendor/owl.carousel/assets/owl.video.play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/vendor/owl.carousel/owl.carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/vendor/owl.carousel/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/vendor/php-email-form/changelog.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/vendor/php-email-form/validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/vendor/venobox/venobox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/vendor/venobox/venobox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/vendor/venobox/venobox.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/assets/vendor/venobox/venobox.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/audio/Suits.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/changePassword.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/css/all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/css/all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/dbFunctions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/doAddStory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/doChangePassword.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/doDeleteStory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/doEditStory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/doLogin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/doRegister.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/doSearchStory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/editStory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/exercise1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/exercise2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/exercise3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/exercise4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/form-handler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/forms/contact.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/images/Desert.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/images/Harvey_Specter.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/images/SKOOL4KIDZ GIRLS UNIFORM BIG.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/images/adventureCurious.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/images/client-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/images/client-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/images/client-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/images/client-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/images/client-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/images/client-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/images/client-7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/images/client-8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/images/default.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/images/funLearning.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/images/givenLift.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/images/goodLesson.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/images/happyShare.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/images/jessica_pearson.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/images/journeyStarts.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/images/longFriday.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/images/mike_ross.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/images/mondayBeautiful.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/images/oldBooks.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/images/slide-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/images/slide-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/images/slide-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/images/suits.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/images/teamSpirit.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/logout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/navbar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/nbproject/private/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/nbproject/private/private.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/nbproject/private/private.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/nbproject/private/private_1.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/nbproject/private/private_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/nbproject/project.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/nbproject/project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/nbproject/project_1.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/nbproject/project_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/register.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/searchStory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/sliders/slider1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/sliders/slider2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/sliders/slider3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/storyDetails.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/storyList.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/storySummary.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/C273_P5/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L5/~$73-L05-PS.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L6/C273-L06-PS.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L6/C273-L06-WS.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L6/C273_L06ImproveTheLook/bookList.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L6/C273_L06ImproveTheLook/css/all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L6/C273_L06ImproveTheLook/css/all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L6/C273_L06ImproveTheLook/css/bootstrap-datetimepicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L6/C273_L06ImproveTheLook/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L6/C273_L06ImproveTheLook/css/images/ui-icons_444444_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L6/C273_L06ImproveTheLook/css/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L6/C273_L06ImproveTheLook/css/jquery.rating.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L6/C273_L06ImproveTheLook/dbFunctions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L6/C273_L06ImproveTheLook/doFeedback.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L6/C273_L06ImproveTheLook/exercise1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L6/C273_L06ImproveTheLook/exercise2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L6/C273_L06ImproveTheLook/exercise3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L6/C273_L06ImproveTheLook/exercise4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L6/C273_L06ImproveTheLook/exercise5.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L6/C273_L06ImproveTheLook/exercise6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L6/C273_L06ImproveTheLook/feedback.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L6/C273_L06ImproveTheLook/js/Chart.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L6/C273_L06ImproveTheLook/js/additional-methods.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L6/C273_L06ImproveTheLook/js/bootstrap-datetimepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L6/C273_L06ImproveTheLook/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L6/C273_L06ImproveTheLook/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L6/C273_L06ImproveTheLook/js/img/star-half.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L6/C273_L06ImproveTheLook/js/img/star-off.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L6/C273_L06ImproveTheLook/js/img/star-on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L6/C273_L06ImproveTheLook/js/jquery-3.5.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L6/C273_L06ImproveTheLook/js/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L6/C273_L06ImproveTheLook/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L6/C273_L06ImproveTheLook/js/jquery.raty.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L6/C273_L06ImproveTheLook/js/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L6/C273_L06ImproveTheLook/js/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L6/C273_L06ImproveTheLook/navbar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L6/C273_L06ImproveTheLook/nbproject/private/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L6/C273_L06ImproveTheLook/nbproject/private/private.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L6/C273_L06ImproveTheLook/nbproject/project.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L6/C273_L06ImproveTheLook/nbproject/project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L6/C273_L06ImproveTheLook/summary.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L6/C273_L06ImproveTheLook/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L6/C273_L06ImproveTheLook/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L6/C273_L06ImproveTheLook/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L6/C273_L06ImproveTheLook/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L6/C273_L06ImproveTheLook/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L6/C273_L06ImproveTheLook/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L6/C273_L06ImproveTheLook/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L6/C273_L06ImproveTheLook/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L6/C273_L06ImproveTheLook/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L6/C273_L06ImproveTheLook/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L6/C273_L06ImproveTheLook/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L6/C273_L06ImproveTheLook/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L6/C273_L06ImproveTheLook/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L6/C273_L06ImproveTheLook/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L6/C273_L06ImproveTheLook/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L6/C273_P6.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L6/c273_p06.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L6/~$73-L06-WS.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L7/C273-L07-6P_Student.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L7/C273-L07-WS-Session1.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L7/C273-L07-WS-Session2.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L7/C273_L07Ajax/4a_showFruit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L7/C273_L07Ajax/4b_showColour.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L7/C273_L07Ajax/4c_circle_calculator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L7/C273_L07Ajax/css/all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L7/C273_L07Ajax/css/bootstrap-datetimepicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L7/C273_L07Ajax/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L7/C273_L07Ajax/css/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L7/C273_L07Ajax/dbFunctions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L7/C273_L07Ajax/js/Chart.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L7/C273_L07Ajax/js/additional-methods.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L7/C273_L07Ajax/js/bootstrap-datetimepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L7/C273_L07Ajax/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L7/C273_L07Ajax/js/img/star-half.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L7/C273_L07Ajax/js/img/star-off.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L7/C273_L07Ajax/js/img/star-on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L7/C273_L07Ajax/js/jquery-3.5.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L7/C273_L07Ajax/js/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L7/C273_L07Ajax/js/jquery.raty.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L7/C273_L07Ajax/js/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L7/C273_L07Ajax/js/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L7/C273_L07Ajax/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L7/C273_L07Ajax/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L7/C273_L07Ajax/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L7/C273_L07Ajax/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L7/C273_L07Ajax/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L7/C273_L07Ajax/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L7/C273_L07Ajax/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L7/C273_L07Ajax/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L7/C273_L07Ajax/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L7/C273_L07Ajax/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L7/C273_L07Ajax/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L7/C273_L07Ajax/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L7/C273_L07Ajax/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L7/C273_L07Ajax/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L7/C273_L07Ajax/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L7/c273_p07.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273-L08-WS-Session1.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273-L08-WS-Session2.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_L08Ajax/1a_showStudentsInTable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_L08Ajax/1b_showModulesInTable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_L08Ajax/1c_showModulesInSelectList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_L08Ajax/1d_showNutritionInAccordion.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_L08Ajax/2a_showStudentsInTable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_L08Ajax/2b_searchStudentDetails.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_L08Ajax/2c_searchStudentByModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_L08Ajax/2d_searchNutrition.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_L08Ajax/3a_showPostsPagination.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_L08Ajax/3b_rateModules.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_L08Ajax/css/all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_L08Ajax/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_L08Ajax/css/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_L08Ajax/dbFunctions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_L08Ajax/getModules.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_L08Ajax/getPostsByPage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_L08Ajax/getStudentDetails.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_L08Ajax/getStudents.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_L08Ajax/getStudentsByModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_L08Ajax/insertRating.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_L08Ajax/js/additional-methods.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_L08Ajax/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_L08Ajax/js/img/star-half.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_L08Ajax/js/img/star-off.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_L08Ajax/js/img/star-on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_L08Ajax/js/jquery-3.5.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_L08Ajax/js/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_L08Ajax/js/jquery.raty.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_L08Ajax/js/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_L08Ajax/js/validator.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_L08Ajax/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_L08Ajax/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_L08Ajax/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_L08Ajax/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_L08Ajax/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_L08Ajax/webfonts/fa-brands-400_1.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_L08Ajax/webfonts/fa-brands-400_1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_L08Ajax/webfonts/fa-brands-400_1.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_L08Ajax/webfonts/fa-brands-400_1.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_L08Ajax/webfonts/fa-brands-400_1.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_L08Ajax/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_L08Ajax/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_L08Ajax/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_L08Ajax/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_L08Ajax/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_L08Ajax/webfonts/fa-regular-400_1.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_L08Ajax/webfonts/fa-regular-400_1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_L08Ajax/webfonts/fa-regular-400_1.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_L08Ajax/webfonts/fa-regular-400_1.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_L08Ajax/webfonts/fa-regular-400_1.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_L08Ajax/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_L08Ajax/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_L08Ajax/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_L08Ajax/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_L08Ajax/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_L08Ajax/webfonts/fa-solid-900_1.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_L08Ajax/webfonts/fa-solid-900_1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_L08Ajax/webfonts/fa-solid-900_1.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_L08Ajax/webfonts/fa-solid-900_1.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_L08Ajax/webfonts/fa-solid-900_1.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/1a_showStudentsInTable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/1b_showModulesInTable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/1c_showModulesInSelectList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/1d_showNutritionInAccordion.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/2a_showStudentsInTable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/2b_searchStudentDetails.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/2c_searchStudentByModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/2d_searchNutrition.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/3a_showPostsPagination.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/3b_rateModules.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/c273_p08.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/css/all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/css/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/dbFunctions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/getModules.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/getNutrition.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/getNutritionByFood.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/getPostsByPage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/getStudentDetails.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/getStudents.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/getStudentsByModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/insertRating.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/js/additional-methods.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/js/img/star-half.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/js/img/star-off.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/js/img/star-on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/js/jquery-3.5.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/js/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/js/jquery.raty.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/js/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/js/validator.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/nbproject/private/private.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/nbproject/private/private.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/nbproject/private/private_1.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/nbproject/project.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/nbproject/project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/nbproject/project_1.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/nbproject/project_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/webfonts/fa-brands-400_1.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/webfonts/fa-brands-400_1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/webfonts/fa-brands-400_1.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/webfonts/fa-brands-400_1.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/webfonts/fa-brands-400_1.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/webfonts/fa-regular-400_1.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/webfonts/fa-regular-400_1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/webfonts/fa-regular-400_1.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/webfonts/fa-regular-400_1.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/webfonts/fa-regular-400_1.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/webfonts/fa-solid-900_1.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/webfonts/fa-solid-900_1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/webfonts/fa-solid-900_1.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/webfonts/fa-solid-900_1.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/C273_P8/webfonts/fa-solid-900_1.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L8/c273_p08.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L9/Azure Guide 1 Getting Microsoft Student Starter Account.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L9/Azure Guide 2 Create a web app and MySQL database.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L9/C273-L09-PS.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L9/C273-L09-WS.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L9/C273_L09CloudNine/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L9/C273_L09CloudNine/dbFunctions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L9/C273_L09CloudNine/js/Chart.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L9/C273_L09CloudNine/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L9/C273_L09CloudNine/js/jquery-3.5.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L9/C273_L09CloudNine/js/showCountryObese.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L9/C273_L09CloudNine/js/showWorldPopulation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L9/C273_L09CloudNine/showCountryObese.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L9/C273_L09CloudNine/showWorldPopulation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Academic_Files/C273 Advanced Web Application Development in PHP/L9/c273_p09.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C203_P3/exercise1.php" beforeDir="false" afterPath="$PROJECT_DIR$/C203_P3/exercise1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xampp/.modell" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xampp/.modell-usb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xampp/.version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xampp/applications.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xampp/bitnami.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xampp/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xampp/index.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +841,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3.28 XAMPP">
     <include_path>
-      <path value="$PROJECT_DIR$/../php/PEAR" />
+      <path value="$PROJECT_DIR$/../../../../xampp/php/PEAR" />
     </include_path>
   </component>
   <component name="ProjectId" id="1xAXsBVL7fCGqc8KJ4mRD6NlDjW" />
@@ -53,7 +861,7 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -63,12 +871,16 @@
       <recent name="C:\xampp\htdocs\C302\C302_Magic2" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.exercise1.php">
     <configuration name="applications.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/htdocs/applications.html?_ij_reload" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="exercise1.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/XAMPP_PHP_Web_Apps/C203_P3/exercise1.php?_ij_reload" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.exercise1.php" />
         <item itemvalue="JavaScript Debug.applications.html" />
       </list>
     </recent_temporary>
@@ -88,6 +900,7 @@
       <workItem from="1629872517736" duration="36000" />
       <workItem from="1629872810934" duration="627000" />
       <workItem from="1630244383282" duration="637000" />
+      <workItem from="1630396349547" duration="369000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1629799641908</created>
@@ -130,7 +943,8 @@
     </ignored-roots>
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Initial Commit ddd" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit ddd" />
+    <MESSAGE value="Updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

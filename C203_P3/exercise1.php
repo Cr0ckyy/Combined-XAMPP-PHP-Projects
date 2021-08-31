@@ -1,4 +1,4 @@
-<!DOCTPYE html>
+
 
  <?php
  

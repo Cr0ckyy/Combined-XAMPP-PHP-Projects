@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Exercise 3</title>
+        <link rel="stylesheet" href="css/all.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/exercise3.js"></script>
+        <script>
+            $(document).ready(function () {
+
+                $("#bg").attr("src", "images/thesopranos.jpg");
+                $("#bg").css({"object-fit": "scale-down", "width": "100%", "height": "100%"});
+                $("img").css('display', 'inline-block');
+
+
+
+                $("#b4").click(function () {
+                    var audio = document.getElementById('audio');
+                    audio.currentTime = 0;
+                    audio.play();
+                });
+            });
+
+
+        </script>
+        <style>
+
+            .form-group { 
+                font-weight: bold;
+            } 
+
+        </style>
+    </head>
+    <body>
+    <body style="color: white; background-image: url('images/wallstreet-580.jpg'); background-size: 50% 50%; ">
+        <div class="container">
+            <h3>Exercise 3</h3>
+            <div class="alert alert-danger" role="alert" id="alertBox">
+            </div>
+            <form id="form" method="post" action="#" class="form-horizontal">
+                <div class="form-group">
+                    <label for="idName">Name<span style="color:red">*</span>:</label>
+                    <input type="text" name="name" id="idName" class="form-control"/>
+                </div>
+                <div class="form-group">
+                    <label for="idAddress">Address:</label>
+                    <input type="text" name="address" id="idAddress" class="form-control"/>
+                </div>
+                <div class="form-group">
+                    <label for="idPostal">Postal Code:</label>
+                    <input type="text" name="postalcode"
+                           placeholder="enter a 6-digit code" id="idPostal" class="form-control"/>
+                </div>
+                <div class="form-group">
+                    <label for="selCountry">Country<span style="color:red">*</span>:</label>
+                    <select id="selCountry" name="country" class="form-control">
+                        <option value="" selected>Please select...</option>
+                        <option value="Singapore">Singapore</option>
+                        <option value="Japan">Japan</option>
+                        <option value="Korea">Korea</option>
+                        <option value="Isreal">Isreal</option>
+                        <option value="Taiwan">Taiwan</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Gender<span style="color:red">*</span>:</label>
+                    <div class="form-check-inline">
+                        <label class="form-check-label" for="radio1">
+                            <input type="radio" class="form-check-input" id="radio1" name="gender" value="m">Male
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label" for="radio2">
+                            <input type="radio" class="form-check-input" id="radio2" name="gender" value="f">Female
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Preferences<span style="color:red">*</span>:</label>
+                    <div class="form-check-inline">
+                        <label class="form-check-label" for="check1">
+                            <input type="checkbox" id="check1" name="color[]" value="r" class="chkboxlist form-check-input">Red
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label" for="check2">
+                            <input type="checkbox" id="check2" name="color[]" value="g" class="chkboxlist form-check-input">Green
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label" for="check3">
+                            <input type="checkbox" id="check3" name="color[]" value="b" class="chkboxlist form-check-input">Blue
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="idName">Phone<span style="color:red">*</span>:</label>
+                    <input type="text" name="phone" id="idPhone" class="form-control"/>
+                </div>
+
+                <div class="form-group">
+                    <label for="idEmail">Email<span style="color:red">*</span>:</label>
+                    <input type="text" name="email" id="idEmail" class="form-control"/>
+                </div>
+
+                <div class="form-group">
+                    <label for="idPassword">Password<span style="color:red">*</span>:</label>
+                    <input type="password" name="Password" id="idPassword" class="form-control" placeholder="Minimum eight and maximum 10 characters, at least one uppercase letter, one lowercase letter, one number and one special character:"/>
+                </div>
+                <div class="form-group">
+                    <label for="idVerifyPassword">Verify Password<span style="color:red">*</span>:</label>
+                    <input type="password" name="verifyPassword" id="idVerifyPassword" class="form-control"/>
+                </div>
+
+                <input class="btn btn-block btn-primary" type="submit" value="Submit"/>
+                <input class="btn btn-block btn-danger"  type="reset" id="btnReset" value="Reset"/>
+            </form>
+
+        </div>
+        <audio id="audio" src="audio/moneyChant.mp3"></audio>
+
+        <button id="b4">The Money Chant</button>
+    </body>
+</html>
