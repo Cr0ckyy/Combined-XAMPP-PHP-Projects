@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bootstrap 4 Example</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/all.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $("button").click(function () {
+                    
+                    // Form Selectors
+                    console.log($(":checkbox:checked").val());
+
+                });
+            });
+        </script>
+    </head>
+    <body>
+
+        <p>Customer Name:<input type="text" name="custName" value="John Smith"/>
+        <p>Phone:<input type="text" name="phone" value="12345678"/>
+        </p>
+        <p>Gender
+            <input type="radio" name="gender" value="M" checked/> Male
+            <input type="radio" name="gender" value="F" /> Female
+        </p>
+        <p>Hobbies
+            <input type="checkbox" name="hobbies" value="badminton" checked/> Badminton
+            <input type="checkbox" name="hobbies" value="swimming" checked/> Swimming
+            <input type="checkbox" name="hobbies" value="basketball" /> Basketball
+        </p>
+        <p><input type="submit"/>
+            <button>Click me to show selected element</button>
+    </body>
+</html>

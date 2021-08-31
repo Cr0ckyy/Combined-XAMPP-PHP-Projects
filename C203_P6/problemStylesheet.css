@@ -1,0 +1,39 @@
+#nuclear {
+    color:red;
+}
+#submitbtn{
+    color:black; 
+     background: orange;
+      font-family: arial;
+}
+form    {
+    margin:left;
+
+background-color: whitesmoke;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 100px; 
+    line-height: 24px;
+    font-weight: bold;
+    color:darkblue;
+    padding:10px;
+    border: 20px solid black; 
+}
+
+#bg1 {
+    background: orange;
+}
+#bg2 {
+    border-radius: 30px;
+    background: #81D8D0 ;
+}
+input    {
+    width:375px;
+    display:block;
+    border: 1px solid black;
+    height: 25px;
+}
+
+textarea#idFeedback {
+    width:675px;
+    height:250px;
+}

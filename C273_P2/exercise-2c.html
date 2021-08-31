@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bootstrap 4 Example</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/all.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <style>
+
+            .top {
+                border: 1px solid #cecfd5;
+                border-radius: 6px;
+                list-style: none;
+                padding: 8px 0 8px 0;
+                text-align: center
+            }
+
+            .nav {
+                display:block;
+                text-decoration: none;
+                padding: 6px 12px;
+            }
+
+        </style>
+
+        <script>
+
+            $(document).ready(function () {
+
+
+
+                // all back class element 
+                $(".back").css("text-transform", "uppercase");
+
+
+                // unordered list
+                $("ul").addClass("top");
+
+                // list item
+                $("li").css("display", "inline");
+
+                // friends id & All elements with a href attribute value ending with  ".com/"
+                $("#friends a[href$='.com/']").css("color", "#0087cc");
+                
+                // friends id
+                $("#friends").addClass("nav");
+                
+                // friends id
+                $("#friends a").append("<br>");
+
+                // friends id
+                $("#social a:odd").css("background-color", "lightpink");
+                
+                // friends id
+                $("#social a:even").css("background-color", "lightblue");
+                   
+                // last "p" element
+                $("p:last").css("font-size", "8px");
+
+                // EXTRA
+
+                $("#b1").click(function () {
+
+                    //$("#bg").css({'background-image': 'url("images/Daddy_A1.png")', 'background-size':'100%', 'background-repeat:':'no-repeat'});
+                    $("#bg").attr("src", "images/Daddy_A1.png");
+                    $("#bg").css({"object-fit": "scale-down", "width": "50%", "height": "50%"});
+                });
+
+                $("#b2").click(function () {
+
+                    //$("#bg").css({'background-image': 'url("images/rena.gif")', 'background-size':'100%', 'background-repeat:':'no-repeat'});
+                    $("#bg").attr("src", "images/rena.gif");
+                    $("#bg").css({"object-fit": "scale-down", "width": "25%", "height": "25%"});
+
+                });
+
+                $("#b3").click(function () {
+
+                    //$("#bg").css({'background-image': 'url("images/Daddy_A1.png")', 'background-size':'100%', 'background-repeat:':'no-repeat'});
+                    $("#bg").attr("src", "images/corn.gif");
+                    $("#bg").css({"object-fit": "scale-down", "width": "50%", "height": "50%"});
+                });
+
+
+                $("#b4").click(function () {
+                    var audio = document.getElementById('audio');
+                    audio.currentTime = 0;
+                    audio.play();
+                });
+            })
+
+
+        </script>
+    </head>
+    <body>
+
+        <div id="wrapper">
+            <header>
+
+                <h1 id="title">
+                    <span class="front">the works of </span>
+                    <span class="back">justin edmund</span>
+                </h1>
+                <ul>
+                    <li>
+                        <a href="http://jedmund.com/about">about</a>
+                    </li>
+                    <li>
+                        <a href="http://blog.jedmund.com/">blog</a>
+                    </li>
+                    <li>
+                        <a href="http://jedmund.com/projects">works</a>
+                    </li>
+                </ul>
+            </header>
+            <p>Justin Edmund is a maker focusing on product design and software development. He primarily builds tools that help people be more creative and inspired. He also enjoys bookbinding and other physical forms of design.</p>
+            <p>He currently works at <a href="http://pinterest.com/" title="Pinterest" target="_new">Pinterest</a> in San Francisco, California as a product designer. He worked at <a href="http://facebook.com/" title="Facebook" target="_new">Facebook</a> briefly as an intern in 2010. He graduated from the <a href="http://design.cmu.edu/" title="School of Design" target="_new">Carnegie Mellon University School of Design's</a> Communication Design program in May 2011.</p>
+
+            <div id="friends">
+                <h3>I like these people</h3>
+                <a href="http://ashsmash.com/" target="_new">Ash Huang</a>
+                <a href="http://victorng.net/" target="_new">Victor Ng</a>
+                <a href="http://leebyron.com/" target="_new">Lee Byron</a>
+                <a href="http://dianewuart.blogspot.com/" target="_new">Diane Wu</a>
+                <a href="http://helloauan.com/" target="_new">Jonathon Toon</a>
+                <a href="http://rsms.me/" target="_new">Rasmus Andersson</a>
+                <a href="http://hiytrebla.com/" target="_new">Albert Yih</a>
+            </div>
+        </div>
+
+
+        <div class = "images">
+            <img id="bg"/><br>
+        </div>
+
+
+        <footer>
+            <p>Justin Edmund is a maker focusing on product design and software development.
+            </p>
+            <p>He is happily working as a Product Designer at <a href="http://pinterest.com/" title="Pinterest" target="_new">Pinterest</a> in San Francisco. Want to get in touch? <a href="mailto:hello@jedmund.com" title="" target="_new">Send an email!</a></p>
+
+            <div id="social">
+                <a href="http://www.facebook.com/jedmund" target="_new">facebook</a>
+                <a href="http://www.twitter.com/jedmund" target="_new">twitter</a>
+                <a href="http://pinterest.com/jedmund" target="_new">pinterest</a>
+                <a href="http://www.dribbble.com/jedmund" target="_new">dribble</a>
+                <a href="http://quora.com/Justin-Edmund-1" target="_new">quora</a>
+                <a href="http://github.com/jedmund" target="_new">github</a>
+                <a href="http://vimeo.com/jedmund" target="_new">vimeo</a>
+                <a href="http://linkedin.com/in/jedmund" target="_new">linkedin</a>
+            </div>
+            <!-- EXTRA -->
+
+
+            <audio id="audio" src="audio/emergency_food.mp3"></audio>
+
+            <button id="b1">Fish</button>
+            <button id="b2">Dog</button>
+            <button id="b3">Cat</button>
+            <button id="b4">Play</button>
+
+
+
+            <p>all works ©2007-2012 Justin Edmund, all rights reserved • Built on <a href="http://getfoundation.com/">Foundation</a> • <a href="http://jedmund.com/admin">admin</a></p>
+        </footer>
+
+
+
+
+
+
+
+    </body>
+</html>

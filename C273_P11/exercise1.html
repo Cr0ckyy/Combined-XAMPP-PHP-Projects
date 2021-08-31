@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>P12 exercise1.html</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+            // Chrome
+            //1.	Ctrl-Shift-I to display Developer Tools
+            //2.	Go to Application and expand Local Storage
+
+
+            // When a key name and value is transferred, 
+            // the key will be applied to the specified Storage entity, 
+            //or the value of that key will be changed if it already exists.
+            localStorage.setItem("fruit", "blueberry");
+
+
+            // The website shows an "apple" warning message.
+            var myfruit = localStorage.getItem("fruit");
+            alert(myfruit);
+
+            //The code will delete the defined Storage Object item.
+//            localStorage.removeItem("fruit");
+        </script>
+    </head>
+</html>

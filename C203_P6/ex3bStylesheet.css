@@ -1,0 +1,23 @@
+
+body{
+    background-color: coral;
+}
+
+h2{
+    color: white;
+    text-align: center;
+}
+
+p{
+    font-size: 14px;
+    margin: 20px;
+    padding: 10px;
+    font-family: "Century Gothic";
+    border: 2px solid blue;
+}
+
+div{
+    color:cyan;
+    margin-left: 50px;
+    font-size: 30px;
+}

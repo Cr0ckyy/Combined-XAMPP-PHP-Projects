@@ -1,0 +1,23 @@
+
+body{
+    background-color: cyan;
+}
+
+h2{
+    color: black;
+    text-align: center;
+}
+
+p{
+    font-size: 14px;
+    margin: 20px;
+    padding: 10px;
+    font-family: "Century Gothic";
+    border: 2px solid red;
+}
+
+div{
+    color:cyan;
+    margin-left: 50px;
+    font-size: 30px;
+}

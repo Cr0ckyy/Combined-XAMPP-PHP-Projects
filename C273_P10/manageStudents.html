@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Manage Students</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/fontawesome-all.min.css" rel="stylesheet" type="text/css"/>
+        <script src="js/jquery-3.5.1.min.js" type="text/javascript"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="js/jquery.validate.min.js" type="text/javascript"></script>
+        <script src="js/additional-methods.min.js" type="text/javascript"></script>
+
+        <script>
+
+            $(document).ready(function () {
+
+                reload_table();
+
+                $("#btnAdd").click(function () {
+                    $('#add_modal').modal('show'); // show bootstrap modal
+                });
+
+                var add_validator = $("#add_form").validate({
+                    rules: {
+                        studentid: {
+                            required: true,
+                            pattern: /^[0-9]+$/
+                        },
+                        firstname: {
+                            required: true
+                        },
+                        lastname: {
+                            required: true
+                        }
+                    },
+                    messages: {
+                        studentid: {
+                            required: "Please enter your student ID",
+                            pattern: "Please enter only numbers"
+                        },
+                        firstname: {
+                            required: "Please enter your first name."
+                        },
+                        lastname: {
+                            required: "Please enter your last name."
+                        }
+                    },
+
+                    submitHandler: function (form) {
+
+                        var studentid = $("#add_form [name=studentid]").val();
+                        var firstname = $("#add_form [name=firstname]").val();
+                        var lastname = $("#add_form [name=lastname]").val();
+
+                        $.ajax({
+                            url: "addStudent.php",
+                            type: "POST",
+                            data: "studentid=" + studentid + "&firstname=" + firstname + "&lastname=" + lastname,
+                            dataType: "JSON",
+                            success: function (data) {
+                                $('#add_modal').modal('hide');
+                                reload_table();
+                            },
+                            error: function (obj, textStatus, errorThrown) {
+                                $("#addErrorMsg").html("Unable to add record");
+                                alert("Error " + textStatus + ": " + errorThrown);
+                                return false;
+                            }
+                        });
+
+                    }
+
+
+
+                });
+
+
+//                var edit_validator = $("#edit_form").validate({
+//                    rules: {
+//                        firstname: {
+//                            required: true
+//                        },
+//                        lastname: {
+//                            required: true
+//                        }
+//                    },
+//                    messages: {
+//                        firstname: {
+//                            required: "Please enter your first name."
+//                        },
+//                        lastname: {
+//                            required: "Please enter your last name."
+//                        }
+//                    },
+//
+//                    submitHandler: function (form) {
+//                        var studentid = $("#edit_form [name=studentid]").val();
+//                        var firstname = $("#edit_form [name=firstname]").val();
+//                        var lastname = $("#edit_form [name=lastname]").val();
+//
+//                        $.ajax({
+//                            url: "editStudent.php",
+//                            type: "POST",
+//                            data: "studentid=" + studentid + "&firstname=" + firstname + "&lastname=" + lastname,
+//                            dataType: "JSON",
+//
+//                            success: function (data) {
+//                                $('#edit_modal').modal('hide');
+//                                reload_table();
+//                            },
+//
+//                            error: function (obj, textStatus, errorThrown) {
+//                                $("#editErrorMsg").html("Unable to add record");
+//                                console.log("Error " + textStatus + ": " + errorThrown);
+//                                return false;
+//                            }
+//                        });
+//
+//                    }
+//
+//                });
+
+
+                $('#add_modal').on('hidden.bs.modal', function () {
+                    $('#add_form')[0].reset();
+                    add_validator.destroy();
+                });
+
+//                $('#edit_modal').on('hidden.bs.modal', function () {
+//                    $('#edit_form')[0].reset();
+//                    edit_validator.destroy();
+//                });
+
+
+
+//                $("#defaultTable").on("click", ".btnEdit", function () {
+//                    var id = $(this).val();
+//                    $.ajax({
+//                        url: "getStudentDetails.php",
+//                        data: "student_id=" + id,
+//                        type: "GET",
+//                        cache: false,
+//                        dataType: "JSON",
+//
+//                        success: function (data) {
+//                            $('#edit_form [name=studentid]').val(data.student_id);
+//                            $('#edit_form [name=firstname]').val(data.first_name);
+//                            $('#edit_form [name=lastname]').val(data.last_name);
+//
+//                            $('#edit_modal').modal('show'); // show bootstrap modal when complete loaded
+//
+//                        },
+//                        error: function (obj, textStatus, errorThrown) {
+//                            console.log("Error " + textStatus + ": " + errorThrown);
+//                        }
+//                    });
+//                });
+
+
+                $("#defaultTable").on("click", ".btnDelete", function () {
+                    var id = $(this).val();
+                    if (confirm('Are you sure you want to delete this student?')) {
+                        // ajax delete data to database
+                        $.ajax({
+                            url: "deleteStudent.php",
+                            data: "studentid=" + id,
+                            type: "GET",
+                            dataType: "JSON",
+                            success: function (data) {
+                                reload_table();
+                            },
+                            error: function (obj, textStatus, errorThrown) {
+                                console.log("Error " + textStatus + ": " + errorThrown);
+                            }
+                        });
+                    }
+                });
+            });
+
+            function reload_table() {
+
+                $.ajax({
+                    type: "GET",
+                    url: "getStudents.php",
+                    cache: false,
+                    dataType: "JSON",
+                    success: function (response) {
+                        var message = "";
+                        for (i = 0; i < response.length; i++) {
+                            message += "<tr>"
+
+                                    + "<td>" + response[i].student_id + "</td>"
+                                    + "<td>" + response[i].first_name + "</td>"
+                                    + "<td>" + response[i].last_name + "</td>"
+                                    + "<td><button class='btnEdit btn btn-primary' value='" + response[i].student_id + "'><i class='fa fa-edit'></i> Edit</button>&nbsp;&nbsp;"
+                                    + "<button class='btnDelete btn btn-danger' value='" + response[i].student_id + "'><i class='fa fa-trash'></i> Delete</button></td>"
+
+                                    + "</tr>";
+                        }
+                        $("#defaultTable tbody").html(message);
+                    },
+                    error: function (obj, textStatus, errorThrown) {
+                        console.log("Error " + textStatus + ": " + errorThrown);
+                    }
+                });
+            }
+
+
+
+        </script>
+        <style>
+            form .error {
+                color: #ff0000;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h3>Manage Students</h3>
+            <br/>
+            <button class="btn btn-success" id="btnAdd"><i class="fa fa-plus"></i> Add</button>
+            <br/>
+            <br/>
+            <table id="defaultTable" class="table table-bordered table-striped" cellspacing="0" width="100%">
+                <thead>
+                    <tr><th>Student ID</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table> 
+        </div>
+
+        <!-- Bootstrap modal -->
+        <div class="modal fade" id="add_modal" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title">Add Student Details</h3>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="addErrorMsg"></div>
+                        <form action="#" id="add_form" method="post">
+                            <div class="form-body">
+                                <div class="form-group">
+                                    <label>Student ID</label>
+                                    <input name="studentid" class="form-control" type="text" required>
+                                </div>
+                                <div class="form-group">
+                                    <label>First Name</label>
+                                    <input name="firstname" class="form-control" type="text" required>
+                                </div>
+                                <div class="form-group">
+                                    <label>Last Name</label>
+                                    <input name="lastname" class="form-control" type="text" required>                                       
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="submit" id="btnSave" class="btn btn-primary">Save</button>
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                            </div>
+                        </form>
+                    </div><!-- /.modal-body -->
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+        <!-- End Bootstrap modal -->
+
+
+
+        <!-- Bootstrap modal -->
+        <div class="modal fade" id="edit_modal" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title">Edit Student Details</h3>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="editErrorMsg"></div>
+                        <form action="#" id="edit_form" method="post">
+                            <div class="form-body">
+                                <div class="form-group">
+                                    <label>Student ID</label>
+                                    <input name="studentid" class="form-control" type="text" readonly>                                   
+                                </div>
+                                <div class="form-group">
+                                    <label>First Name</label>
+                                    <input name="firstname" class="form-control" type="text" required>
+                                </div>
+                                <div class="form-group">
+                                    <label>Last Name</label>
+                                    <input name="lastname" class="form-control" type="text" required>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="submit" id="btnSave" class="btn btn-primary">Save</button>
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                            </div>
+                        </form>
+                    </div><!-- /.modal-body -->
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+        <!-- End Bootstrap modal -->
+
+    </body>
+</html>

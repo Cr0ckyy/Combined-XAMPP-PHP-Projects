@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Exercise 1b</title>
+        <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>  
+        <script>
+            $(document).ready(function () {
+                // Step 1: AJAX initiates Http GET request and retrieves  response as JSON message
+                $.ajax({
+                    type: "GET", // type: GET/POST                
+                    url: "getModules.php", // url: The request URL
+                    cache: false, // If set to false , it will force requested pages not to be cached by the browser. 
+                    dataType: "JSON", // dataType: Expected response data type
+
+                    // Step 2: Retrieve data from object and display using jQuery selector
+                    success: function (response) {
+                        var message = ""
+
+                        message += "<thead><tr><th>Module Code</th> <th>Module Name</th></tr></thead>";
+
+                        for (i = 0; i < response.length; i++) {
+                            message += "<tr>"
+
+                            message += "<td>" + response[i].module_code + "</td>"
+                            message += "<td>" + response[i].module_name + "</td>";
+
+                            message += "<tr>"
+                        }
+                        $("#moduleTable").html(message);
+                    },
+                    error: function (obj, textStatus, errorThrown) {
+                        console.log("Error " + textStatus + ": " + errorThrown);
+                    }
+                });
+            });
+        </script>
+    </head>
+
+    <body>
+        <table id="moduleTable" class="table table-striped table-sm table-bordered">
+        </table>
+    </body>
+</html>

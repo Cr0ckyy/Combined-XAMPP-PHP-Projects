@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>DIV Challenge</title>
+        <style>
+            fieldset{
+                background-color: whitesmoke;
+                display:inline;
+                padding-right: 10px;
+                padding-left: 20px;
+            }
+
+            .lab{
+                text-align:right;
+            }
+
+            table{ 
+                margin-top:-112px;
+                align-content:center;
+            }
+
+            .enter{
+                text-align: left;
+                padding-left: 20px;
+            }
+
+            input[type=submit]{
+                float:left;
+                width:120px;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <div align="center">
+            <fieldset>
+                    <table>
+                        <tr>
+                            <td class="lab"><label>Title:</label></td>
+                            <td class="enter">
+                                <select name="title">
+                                    <option value="Mr.">Mr.</option>
+                                    <option value="Dr.">Dr.</option>
+                                    <option value="Ms.">Ms.</option>
+                                    <option value="Mrs.">Mrs.</option>
+                                </select>
+                            </td>
+                        <br/>
+                        </tr>
+
+                        <tr>
+                            <td class="lab"><label>First Name:</label></td>
+                            <td class="enter"><input type="text" name="firstName"/></td>  
+                        </tr>
+                        <br/>
+
+                        <tr>
+                            <td class="lab"><label>Last Name:</label></td>
+                            <td class="enter"><input type="text" name="lastName"/></td>
+                        </tr>
+                        <br/>
+
+                        <tr>
+                            <td class="lab"><label>Address:</label></td>
+                            <td class="enter"><textarea  name="address"></textarea></td>  
+                        </tr>
+                        <br/>
+
+                        <tr>
+                            <td class="lab"><label>City:</label></td>
+                            <td class="enter">
+                                <select name="city">
+                                    <option>New York</option>
+                                    <option>Los Angeles</option>
+                                    <option>San Francisco</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <br>
+
+                        <tr>
+                            <td class="lab"><label>Zip code:</label></td>
+                            <td class="enter"><input type="text" name="zip"/> </td>
+                        </tr>
+                        <br/>
+
+                    </table>
+                    <br/>
+
+                    <input type="submit" value="Send Data"/><br/>
+                </form>
+            </fieldset>
+        </div>
+    </body>
+</html>

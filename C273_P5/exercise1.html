@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bootstrap 4 Example</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="css/all.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        
+        <script>
+            $(document).ready(function () {
+
+                // Attaches/Triggers the mouseover event
+                $(".nav-item").mouseover(function () {
+                    $(this).addClass("bg-primary")
+
+                 // Attaches/Triggers the mouseout event   
+                }).mouseout(function () {
+                    
+                    // Removes the class from .nav-item elements
+                    $(this).removeClass("bg-primary");
+                });
+            });
+        </script>
+    </head>
+    <body>
+        
+        
+        <ul class="nav flex-column">
+
+
+            <!-- navigation items - all within same class (nav-item) -->
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Home</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">Profile</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">Message</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">Outlook</a>
+            </li>
+        </ul>
+    </body>
+</html>

@@ -1,0 +1,21 @@
+body
+{
+    background-color:white;
+    color: blue;
+}
+
+h1, h2
+{
+    
+    font-family:"Arial";
+    color:red;
+}
+
+img:not(.test) {
+    border: 3px royalblue;
+    
+}
+
+
+
+	

@@ -1,0 +1,30 @@
+
+body{
+    background-color: yellow;
+}
+
+h3{
+    color: blue;
+    text-align: right;
+}
+
+.mediumText{
+    font-size: 16px;
+}
+
+.fancy{
+    color: red;
+    font-size: 14px;
+    font-style: italic;
+}
+
+#content{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#importantNote{
+    background-color:lightgreen;
+    font-size: 16px;
+    text-decoration: underline;
+}

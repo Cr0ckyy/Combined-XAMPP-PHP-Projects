@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bootstrap 4 Example</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/all.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+
+
+        <script>
+
+            $(document).ready(function () {
+
+                // all title class element 
+                $(".title").css({"border": "3px solid black", "font-weight": "bold"});
+
+                // element with sub id 
+                $("#sub").text("For guests, we provide:");
+
+                // element with message id     
+                $("#message").css("color", "black");
+
+
+                // all "p" element 
+                $("p").addClass("new");
+
+                // all new class element 
+                $(".new").prepend("<i>free</i> ");
+            })
+
+
+        </script>
+    </head>
+    <body>
+        
+        <div class="title">This event is to introduce my new book.</div>
+        <div id="sub">sub title</div>
+        <p>key chain</p>                    
+        <div>Do attend this event.</div>  
+        
+    </body>
+</html>

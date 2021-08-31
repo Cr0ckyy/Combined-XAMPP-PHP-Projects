@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap 4 Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            $("button").click(function () {
+                // Basic Selectors
+
+
+                // element with myHeader id will be yellow
+                //   $("#myHeader").css('background-color', 'yellow');
+
+
+                //All div with abc class will be yellow
+                //  $("div.abc").css('background-color', 'yellow');
+
+                //All span with abc class will be yellow
+                //  $("span.abc").css('background-color', 'yellow');
+
+                // subclasses of division will be yellow
+                // $("div.abc").css('background-color', 'yellow');
+
+                // All div elemeent will be yellow
+                $("div").css('background-color', 'yellow');
+            });
+        });
+    </script>
+</head>
+<body>
+<!-- element with myHeader id-->
+<h1 id="myHeader">What element I am!</h1>
+
+<!-- All div with abc class-->
+<div class="abc">this is the div tag with the class abc</div>
+
+<div>
+    <!--subclasses of division-->
+    <div><span class="abc">this is sub one</span></div>
+
+    <!--div elemeent-->
+    <div>this is another text</div>
+</div>
+
+<button>Click me to show selected element</button>
+
+</body>
+</html>

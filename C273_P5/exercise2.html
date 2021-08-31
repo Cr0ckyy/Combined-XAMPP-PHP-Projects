@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bootstrap 4 Example</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/all.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+
+        <script>
+            $(document).ready(function () {
+                
+                // Attaches/Triggers the mouseover event
+                $(".nav-item").mouseover(function () {
+             
+                    // Adds one or more class names to selected elements
+                    $(this).addClass("bg-primary");
+                    
+                    // Sets or returns the content of selected elements
+                    $("#message").html(`This is a ${$(this).text()} page`);
+   
+   
+                  // Attaches/Triggers the mouseover event
+                }).mouseout(function () {
+                      
+                    // Removes the classes from .nav-item elements
+                    $(this).removeClass("bg-primary");
+                    
+                    // Sets the content of #message element
+                    $("#message").html("");
+                    
+                });
+            });
+        </script>
+    </head>
+    <body>
+
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Home</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">Profile</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">Message</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">Outlook</a>
+            </li>
+
+        </ul>
+
+        <div id="message"></div>
+
+    </body>
+</html>

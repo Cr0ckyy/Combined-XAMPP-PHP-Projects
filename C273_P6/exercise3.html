@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/all.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+
+        <!-- ADDED FILES-->
+        <link rel="stylesheet" href="css/jquery-ui.min.css"> 
+        <script src="js/jquery-ui.min.js" type="text/javascript"></script>
+
+
+        <script>
+            $(document).ready(function () {
+                alert("test");
+
+                var availableConsoles = [
+                    "PC",
+                    "Playstation3",
+                    "PSP",
+                    "Nintendo Wii",
+                    "XBox 360"
+                ];
+
+                // Autocomplete for #id_consoles element 
+                $("#id_consoles").autocomplete({
+                    source: availableConsoles
+                });
+
+                // datepicker for #id_consoles element 
+                $("#id_date").datepicker({minDate: 2, maxDate: "+1M +10D"});
+
+                // slider for #slider element 
+                $("#slider").slider({
+                    value: 0,
+                    min: 0,
+                    max: 20,
+                    step: 1,
+                    slide: function (event, ui) {
+                        $("#num").val(ui.value);
+                    }
+                });
+
+                // get the sllider values for #num element 
+                $("#num").val($("#slider").slider("value"));
+
+
+                $.fn.raty.defaults.path = 'js/img';
+
+
+                // Star Rating for #target-text-demof element 
+                $('#target-text-demo').raty({
+                    cancel: false,
+                    scoreName: 'rate_us',
+                    number: 3, //change to 5
+                    score: 2
+                });
+
+
+            });
+        </script>
+    </head>
+    <body>
+        <form method="post" action="doProcess.php">
+            <div class="ui-widget">
+                <label for="id_consoles">Choose game console: </label>
+                <input type="text" id="id_consoles" name="consoles"/>
+                <br/><br/>
+                <label for="id_date">Purchase date: </label>
+                <input id="id_date" type="text" name="lastVisit"/>
+                <br/><br/>
+                <div id="target-text-demo"></div>
+                <br/><br/>
+
+                <label for="slider">Quantity <input type="text" id="num" readonly style="border:0; color:#f6931f; font-weight:bold; text-align:right" size="1"></label>
+                <div id="slider"></div>
+
+                <br/>
+                <input type="submit" value="Submit Info"/>
+            </div>
+        </form>
+    </body>
+</html>

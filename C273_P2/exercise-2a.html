@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bootstrap 4 Example</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/all.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+
+        <style>
+
+            .red   { color: #FF0000; }
+            .green { color: #00FF00; }
+            .blue  { color: #0000FF; }
+
+        </style>
+        <script>
+
+            $(document).ready(function () {
+
+                // element with hello id
+                $("#hello").css("color", "lightgreen");
+
+                // all p (paragraph) element 
+                $("p").css("font-style", "italic");
+
+                // all red class element 
+                $(".red").css("border", "2px solid green");
+
+                // element with message id
+                $("#message").css("color", "black");
+
+                // all p (paragraph) element 
+                $("p").prepend("Hello World");
+
+                //  #message id element 
+                $("#message").append("John Smith");
+                  
+            })
+
+        </script>
+    </head>
+    <body>
+
+        <h1 id="hello">Hi!</h1>
+        <p id="message" class="red">First Line </p>
+        <p class="red">Second Line </p>
+        <p>Third Line </p>
+
+    </body>
+</html>

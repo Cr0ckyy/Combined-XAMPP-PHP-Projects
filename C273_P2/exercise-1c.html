@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bootstrap 4 Example</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/all.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/jquery.min.js"></script>......................................................................
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $("button").click(function () {
+                    // Attribute Selectors 
+
+                    // Attribute Selectors with class = red triangle  & blue triangle'
+                    $("[class='red triangle'], [class='blue triangle']").css('background-color', 'yellow');
+
+                });
+            });
+        </script>
+    </head>
+    <body>
+
+        <div class="red triangle">Red Triangle</div>
+        <div class="blue triangle">Blue Triangle</div>
+        <div class="yellow square">Yellow Square</div>
+        <div class="red circle">Red Circle</div>
+        <div class="yellow circle">Yellow Circle</div>
+        <button>Click me to show selected element</button>
+    </body>
+</html>

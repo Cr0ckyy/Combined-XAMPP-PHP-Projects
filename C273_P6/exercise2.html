@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/all.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script>
+            $(document).ready(function () {
+
+                alert("test");
+
+//                $("[name=something]").hover(function () {
+//                    var text = $("[name=something]").val();
+//                    var message = text.toLowerCase();
+//                    $("[name=something]").val(message);
+//
+//                });
+
+                // All elements with a name attribute value equal to something &
+                // content of the field changes
+                $("[name=something]").change(function () {
+                    var text = $("[name=something]").val();
+                    var message = text.toLowerCase();
+                    $("[name=something]").val(message);
+                });
+
+            });
+        </script>
+    </head>
+    <body>
+        <div class="container">
+            <h2>Enter Something</h2>
+            <form>
+                <div class="form-group">
+                    <input type="text" name="something" class="form-control"/>                   
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

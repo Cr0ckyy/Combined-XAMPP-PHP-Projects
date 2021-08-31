@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b685cc20-bda1-453b-9417-e19f404c8e29" name="Changes" comment="Initial Commit ddd">
+      <change afterPath="$PROJECT_DIR$/C302_P08_SecuredCloudAddressBook/createContact.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C302_P08_SecuredCloudAddressBook/dbFunctions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C302_P08_SecuredCloudAddressBook/deleteContact.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C302_P08_SecuredCloudAddressBook/getContactDetails.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C302_P08_SecuredCloudAddressBook/getListOfContacts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C302_P08_SecuredCloudAddressBook/updateContact.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3.28 XAMPP">
+    <include_path>
+      <path value="$PROJECT_DIR$/../php/PEAR" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1xAXsBVL7fCGqc8KJ4mRD6NlDjW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/C302_P08" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\C302_P08" />
+      <recent name="C:\xampp\htdocs\C302\C302_P05" />
+      <recent name="C:\xampp\htdocs\C302\C302_Magic2" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="applications.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/htdocs/applications.html?_ij_reload" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.applications.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b685cc20-bda1-453b-9417-e19f404c8e29" name="Changes" comment="" />
+      <created>1629799070534</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1629799070534</updated>
+      <workItem from="1629799071682" duration="1573000" />
+      <workItem from="1629800671534" duration="93000" />
+      <workItem from="1629800766971" duration="73000" />
+      <workItem from="1629800841884" duration="6000" />
+      <workItem from="1629872517736" duration="36000" />
+      <workItem from="1629872810934" duration="627000" />
+      <workItem from="1630244383282" duration="637000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <created>1629799641908</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1629799641908</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial Commit">
+      <created>1629799739836</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1629799739836</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/C302/C302_Magic" />
+      <path value="$PROJECT_DIR$/C302_Magic" />
+      <path value="$PROJECT_DIR$/IOS_CodeLabs" />
+      <path value="$PROJECT_DIR$/XAMPP_PHP_Web_Apps" />
+    </ignored-roots>
+    <MESSAGE value="Initial Commit" />
+    <MESSAGE value="Initial Commit ddd" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit ddd" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
