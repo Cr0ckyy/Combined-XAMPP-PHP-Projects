@@ -1,5 +1,6 @@
-This is a collection of all the WAMP (Windows, Apache, MySQL, and PHP) projects I developed while studying full-time at Republic Polytechnic for a Diploma in Mobile Software Development as three moudles of project work bundled into one single project file.
+This compilation represents my XAMPP projects, which I developed while pursuing a full-time Diploma in Mobile Software Development at Republic Polytechnic. 
 
+The projects were built using the WAMP stack (Windows, Apache, MySQL, and PHP) and cover three modules: 
+C203 Web Development with PHP, C273 Advanced Web Development with PHP, and C302 Web Services. 
 
-
-
+All these projects have been merged into a unified project file.
